@@ -1,0 +1,189 @@
+/* Estilo para o corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Cor de fundo clara */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o título principal */
+h1 {
+  font-size: 150%;
+  font-weight: bold; /* Negrito para o texto */
+  color: #343a40; /* Cinza escuro */
+  text-align: center;
+}
+
+/* Estilo para o subtítulo */
+h2 {
+  font-size: 2rem;
+  color: #495057; /* Cinza médio */
+  font-weight: bold;
+}
+
+/* Estilo para o botão "Adicionar Tarefa" */
+button.btn-primary {
+  background-color: #00008b; /* Azul escuro */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+button.btn-primary:hover {
+  background-color: #1052a8; /* Azul ainda mais escuro ao passar o mouse */
+  opacity: 0.9;
+}
+
+
+/* Estilo para a lista de tarefas */
+.tarefas {
+  margin-top: 60px;
+  font-weight: bold; /* Negrito para o texto */
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.tarefas li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #ffffff; /* Fundo branco */
+  font-size: 1rem;
+  color: #343a40; /* Texto cinza escuro */
+  font-weight: bold;
+}
+
+.tarefas li div {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* Linha por cima da tarefa concluída */
+.concluida {
+  text-decoration: line-through;
+  color: rgb(6, 5, 5);
+  opacity: 0.7;
+}
+
+.tarefas li button {
+  margin-left: 0; /* Remove margens extras */
+}
+
+.tarefas li input {
+  flex: 1; /* Faz o campo ocupar o espaço disponível */
+  margin-right: 10px; /* Espaçamento entre o campo e os botões */
+}
+
+/* Estilo dos inputs */
+.tarefas input[type="text"] {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Estilo dos botões */
+button.btn {
+  font-size: 0.875rem;
+  padding: 6px 12px;
+  border-radius: 999px; /* Arredondado como pílula */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Botões específicos */
+button.btn-success {
+  background-color: #198754;
+  color: white;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Espaçamento entre botões */
+.d-flex.gap-2 > * {
+  margin-right: 8px;
+}
+
+.d-flex.gap-2 > *:last-child {
+  margin-right: 0;
+}
+
+button i {
+  font-size: 1.2rem; /* Ajusta o tamanho do ícone */
+}
+
+.user-photo img {
+  width: 100px; /* Largura da foto */
+  height: 100px; /* Altura da foto */
+  object-fit: cover; /* Garante que a imagem se ajuste ao círculo */
+  border-radius: 50%; /* Torna a imagem circular */
+  border: 2px solid #ddd; /* Borda ao redor da foto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+.user-photo {
+  position: absolute; /* Posiciona o elemento de forma absoluta */
+  top: 20px; /* Distância do topo */
+  right: 120px; /* Distância da direita */
+}
+
+.user-photo img {
+  width: 60px; /* Ajusta a largura da foto */
+  height: 60px; /* Ajusta a altura da foto */
+  object-fit: cover; /* Garante que a imagem se ajuste ao círculo */
+  border-radius: 50%; /* Torna a imagem circular */
+  border: 2px solid #ddd; /* Borda ao redor da foto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+.user-photo {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+}
+
+.user-photo img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Mostra que a imagem é clicável */
+}
+
+.dropdown-menu {
+  min-width: 150px; /* Largura mínima do menu */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do botão de favorito */
+#favoriteButton {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para tarefas favoritas */
+.favorite {
+  background-color: #fff3cd; /* Fundo amarelo claro */
+  border-color: #ffeeba; /* Borda amarela */
+}
