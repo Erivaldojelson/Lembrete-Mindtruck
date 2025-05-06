@@ -1,2 +1,2 @@
-![Descrição](Print-da-tela-de-lembretes.png)
+![Descrição](C:\Users\Monst\OneDrive\Documentos\Lembrete Mindtruck\Print-da-tela-de-lembretes.png)
 
