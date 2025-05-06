@@ -1,1 +1,2 @@
-![Print da tela principal](C:\Users\Monst\OneDrive\Imagens\Screenshots)
+![Descrição](../C:\Users\Monst\OneDrive\Documentos\Lembrete Mindtruck\Print-da-tela-de-lembretes)
+
